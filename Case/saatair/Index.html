@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<script src="script.js"></script>
+<html>
+<head>
+    <style>
+       table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+        body {
+            font-family: Arial, sans-serif;
+            margin: 100px;
+            padding: 1px;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #555;
+        }
+    </style>
+    <title>Saat Airlines</title>
+</head>
+<body>
+    <h1>Flight Management</h1>
+
+    <label for="flightNumber">Flight Number:</label>
+    <input type="text" id="flightNumber" placeholder="ABC123" disabled><br>
+
+    <label for="departureTime">Departure Time:</label>
+    <input type="datetime-local" id="departureTime"><br>
+
+    <label for "arrivalTime">Arrival Time:</label>
+    <input type="datetime-local" id="arrivalTime"><br>
+    
+    <label for "price">Price:</label>
+    <input type="number" id="price" disabled><br>
+
+    <label for "status">Status:</label>
+    <input type="text" id="status" disabled><br>
+
+  
+         <table >
+            <tr>
+    <th>Flight Number</th>
+    <th>Statu</th>
+    <th>Departure Time</th>
+    <th>Arrival Time</th>
+    <th>Price</th>
+  </tr>
+      <tr>
+         <td>
+         
+         </td>
+         <td>
+
+         </td>
+         <td>
+            
+         </td>
+         <td>
+            
+         </td>
+         <td>
+            
+         </td>
+      </tr>
+   </table>
+   
+
+
+    <button id="checkFlight" onclick="checkFlight()">Check Flight</button>
+    <button id="createFlightButton" onclick="myFunction()">Create Flight</button>
+
+ 
+</body>
+</html>
